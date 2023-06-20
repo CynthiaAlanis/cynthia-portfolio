@@ -163,72 +163,87 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Since the beginning of my journey as a freelance designer and
-              developer, I've done remote work for
-              <span className="text-teal-500"> agencies </span>
-              consulted for <span className="text-teal-500">startups </span>
-              and collaborated with talanted people to create digital products
-              for both business and consumer use.
+             Here are some of my 
+              <span className="text-teal-500"> projects. </span>
+              Click on the <span className="text-teal-500">image </span>and it will take you to the live site. 
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and teaching.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
+              <a href="https://formalinedesign.netlify.app">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                url="https://formalinedesign.netlify.app"
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://dj-ray.netlify.app">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                url="https://dj-ray.netlify.app"
               />
+              </a>
             </div>
+            
             <div className="basis-1/3 flex-1">
+              <a href="https://less-is-greener.netlify.app/">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                url="https://less-is-greener.netlify.app/"
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://treatment-centers.herokuapp.com">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                url="https://treatment-centers.herokuapp.com"
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+            <a href="https://alanis-stocks-api.netlify.app/" >
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                url="https://alanis-stocks-api.netlify.app/"
               />
+               </a>
             </div>
+           
             <div className="basis-1/3 flex-1">
+              <a href="https://alanis-star-wars-api.netlify.app/">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
                 height={"100%"}
                 layout="responsive"
                 src={web6}
+                url="https://alanis-star-wars-api.netlify.app/"
               />
+              </a>
             </div>
           </div>
         </section>
