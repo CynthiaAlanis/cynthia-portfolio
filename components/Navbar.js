@@ -1,10 +1,5 @@
 import React, { useState } from "react";
 
-
-
-
-
-
 import {
  
   AiOutlineFundProjectionScreen,
@@ -48,22 +43,18 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
+          
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              <Nav.Link 
+              as={Link} 
+              to="/" 
+              onClick={() => updateExpanded(false)}>
                  Home
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
-            </Nav.Item>
+
 
             <Nav.Item>
               <Nav.Link
