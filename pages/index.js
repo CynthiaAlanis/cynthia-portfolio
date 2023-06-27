@@ -176,6 +176,7 @@ export default function Home() {
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
               <a href="https://formalinedesign.netlify.app">
+                
               <Image
                 className="project-pic rounded-lg object-cover"
                 width={"100%"}
@@ -188,6 +189,7 @@ export default function Home() {
             </div>
             <div className="basis-1/3 flex-1">
               <a href="https://dj-ray.netlify.app">
+
               <Image
                 className="project-pic rounded-lg object-cover"
                 width={"100%"}
