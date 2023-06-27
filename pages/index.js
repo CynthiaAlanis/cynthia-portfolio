@@ -152,10 +152,13 @@ export default function Home() {
               Are you interested in learning more about the website I've built? I would be delighted to discuss it with you! Feel free to reach out to me using the contact links below. I look forward to connecting with you!
               </p>
               <h4 className="py-4 text-teal-600">Contact me</h4>
-              <a h4 className="py-4 text-teal-600" href="mailto:cynthia.alanis917@gmail.com" class="email">Email</a>
+              <a h4 className="text-gray-800 py-1" href="mailto:cynthia.alanis917@gmail.com" class="email">Email</a>
               <br/>
-              <a className="text-gray-800 py-1" href="https://www.linkedin.com/in/cynthia-alanis/" class="linkenin">LinkedIn</a>
               
+             
+              <a h4 className="text-gray-800 py-1"  href="https://www.linkedin.com/in/cynthia-alanis/">
+              LinkedIn
+              </a>
             </div>
           </div>
         </section>
