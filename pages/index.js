@@ -1,11 +1,4 @@
 import Head from "next/head";
-
-import {
-  AiFillGithub,
-  AiFillLinkedin,
-  AiOutlineMail,
-} from "react-icons/ai";
-import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 
 import deved from "../public/CynthiaAlanis.png";
@@ -19,6 +12,13 @@ import web3 from "../public/Greener.png";
 import web4 from "../public/Treatment.png";
 import web5 from "../public/stock.png";
 import web6 from "../public/star.png";
+import {
+  AiFillGithub,
+  AiFillLinkedin,
+  AiOutlineMail,
+} from "react-icons/ai";
+import { BsFillMoonStarsFill } from "react-icons/bs";
+
 
 
 export default function Home() {
@@ -97,7 +97,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image src={deved} layout="fill" objectFit="cover" />
+              <Image className="me" src={deved} layout="fill" objectFit="cover" />
             </div>
           </div>
         </section>
@@ -113,7 +113,9 @@ export default function Home() {
           </div>
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+
               <Image src={design} width={100} height={100} />
+
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
               </h3>
