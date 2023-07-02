@@ -97,7 +97,7 @@ export default function Home() {
               </a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 relative overflow-hidden mt-20 md:h-96 md:w-96">
-              <Image className="me" src={deved} layout="fill" objectFit="cover" />
+              <Image className="me" src={deved} layout="fill" objectFit="cover" alt="me"/>
             </div>
           </div>
         </section>
@@ -253,7 +253,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web6}
-                alt="starwars"
+                alt="starwarscd "
                 url="https://alanis-star-wars-api.netlify.app/"
               />
               </a>
