@@ -114,7 +114,7 @@ export default function Home() {
           <div className="lg:flex gap-10">
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
 
-              <Image src={design} width={100} height={100} />
+              <Image src={design} width={100} height={100} alt="design" />
 
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Beautiful Designs
@@ -130,7 +130,7 @@ export default function Home() {
               <p className="text-gray-800 py-1">Indesign</p>
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={code} width={100} height={100} />
+              <Image src={code} width={100} height={100} alt="code"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">
                 Code your dream project
               </h3>
@@ -148,7 +148,7 @@ export default function Home() {
 
             </div>
             <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1">
-              <Image src={consulting} width={100} height={100} />
+              <Image src={consulting} width={100} height={100} alt="consulting"/>
               <h3 className="text-lg font-medium pt-8 pb-2 ">Connect</h3>
               <p className="py-2">
               Are you interested in learning more about the website I've built? I would be delighted to discuss it with you! Feel free to reach out to me using the contact links below. I look forward to connecting with you!
@@ -185,6 +185,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web1}
+                alt="formaline"
                 url="https://formalinedesign.netlify.app"
               />
               </a>
@@ -198,6 +199,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web2}
+                alt="ray"
                 url="https://dj-ray.netlify.app"
               />
               </a>
@@ -211,6 +213,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web3}
+                alt="greener"
                 url="https://less-is-greener.netlify.app/"
               />
               </a>
@@ -223,6 +226,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web4}
+                alt="center"
                 url="https://treatment-centers.herokuapp.com"
               />
               </a>
@@ -235,6 +239,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web5}
+                alt="stocks"
                 url="https://alanis-stocks-api.netlify.app/"
               />
                </a>
@@ -248,6 +253,7 @@ export default function Home() {
                 height={"100%"}
                 layout="responsive"
                 src={web6}
+                alt="starwars"
                 url="https://alanis-star-wars-api.netlify.app/"
               />
               </a>
