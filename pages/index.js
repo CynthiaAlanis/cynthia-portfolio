@@ -11,7 +11,7 @@ import web2 from "../public/DjRay.png";
 import web3 from "../public/Greener.png";
 import web4 from "../public/Treatment.png";
 import web5 from "../public/stock.png";
-import web6 from "../public/star.png";
+import web6 from "../public/Star.png";
 import {
   AiFillGithub,
   AiFillLinkedin,
