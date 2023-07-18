@@ -77,10 +77,14 @@ export default function Home() {
               CYNTHIA ALANIS
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
-              Developer and designer.
+              Full Stack Developer
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-            Hello, my name is Cynthia Alanis and I am a detail-oriented software developer with experience working with electronic health records. I have been working in the helping profession for over 7 years where I enjoyed creating a safe place for people experiencing trauma. I’m transitioning to a career in software development because I immediately fell in love with the syntax in computer programming, and started doing freelance work for family members and friends. During my time at General Assembly in the Software Engineering Immersive, I have gained knowledge in SQL, Javascript, MongoDB, React, HTML, and CSS. My career path has taught me to become patient, empathetic, and resilient. I believe those three skills will make me a good candidate for a software engineering position. I enjoy seeing people grow their businesses and I am glad I can help create their signature website.
+            Hello, my name is Cynthia Alanis, and I am a highly motivated and detail-oriented self-taught software developer specializing in working with electronic health records. With a strong background in the helping profession spanning over 7 years, I have excelled in creating safe spaces for individuals navigating through traumatic experiences. However, my true passion lies in the world of computer programming, where I have found myself captivated by the intricacies of syntax and coding.
+            <br/>
+            Driven by my love for software development, I embarked on a journey of self-study, honing my skills and taking on freelance projects for close family members and friends. Witnessing the positive impact I could make through technology, I realized that my true calling was in software engineering. 
+            <br/>
+            I have immersed myself in various technologies, gaining proficiency in SQL, JavaScript, MongoDB, React, HTML, and CSS. This comprehensive training has equipped me with a solid foundation to excel in the field of software development. Moreover, my professional background has instilled in me the values of patience, empathy, and resilience—qualities that I believe set me apart and make me an ideal candidate for a software engineering position.
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
 
