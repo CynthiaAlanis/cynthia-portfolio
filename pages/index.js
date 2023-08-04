@@ -12,6 +12,8 @@ import web3 from "../public/Greener.png";
 import web4 from "../public/Treatment.png";
 import web5 from "../public/stock.png";
 import web6 from "../public/Star.png";
+import web7 from "../public/Cities.png";
+import web8 from "../public/Gif.png";
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -262,6 +264,35 @@ export default function Home() {
               />
               </a>
             </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://react-cities-alanis.netlify.app">
+              <Image
+                className="project-pic rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web7}
+                alt="cities "
+                url="https://react-cities-alanis.netlify.app"
+              />
+              </a>
+            </div>
+
+            <div className="basis-1/3 flex-1">
+              <a href="https://stirring-semolina-d2b9fe.netlify.app">
+              <Image
+                className="project-pic rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web8}
+                alt="gif"
+                url="https://stirring-semolina-d2b9fe.netlify.app"
+              />
+              </a>
+            </div>
+
+            
           </div>
         </section>
       </main>
