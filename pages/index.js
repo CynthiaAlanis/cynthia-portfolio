@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { useState } from "react";
-
 import deved from "../public/CynthiaAlanis.png";
 import code from "../public/code.png";
 import design from "../public/design.png";
@@ -20,6 +19,7 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { BsFillMoonStarsFill } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 
 
@@ -27,6 +27,7 @@ export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
+    
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Cynthia Alanis</title>
@@ -47,14 +48,14 @@ export default function Home() {
                   Resume
                 </a>
               </li>
-              {/* <li>
+              <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="#About"
+                  href="#Contact"
                 >
-                  About
+                  Contact
                 </a>
-              </li> */}
+              </li>
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
@@ -63,7 +64,8 @@ export default function Home() {
                   Projects
                 </a>
               </li>
-            
+
+   
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
@@ -293,6 +295,16 @@ export default function Home() {
             </div>
 
             
+          </div>
+        </section>
+        <section className="py-10">
+          <div id="Contact">
+          <h3 className="text-3xl py-1 dark:text-white ">Contact</h3>
+            <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
+             You can connect with me at 
+              <span className="text-teal-500"><a href="mailto:cynthia.alanis917@gmail.com"> cynthia.alanis917@gmail.com </a></span>
+              Click on my <span className="text-teal-500">email address </span>and it will allow you to send me an email. 
+            </p>
           </div>
         </section>
       </main>
