@@ -13,6 +13,8 @@ import web5 from "../public/stock.png";
 import web6 from "../public/Star.png";
 import web7 from "../public/Cities.png";
 import web8 from "../public/Gif.png";
+import web9 from "../public/bailbonds.png"
+import web10 from "../public/420bail.png"
 import {
   AiFillGithub,
   AiFillLinkedin,
@@ -212,6 +214,20 @@ export default function Home() {
               />
               </a>
             </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://420bailbonds.netlify.app">
+
+              <Image
+                className="project-pic rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web10}
+                alt="ray"
+                url="https://420bailbonds.netlify.app"
+              />
+              </a>
+            </div>
             
             <div className="basis-1/3 flex-1">
               <a href="https://less-is-greener.netlify.app/">
@@ -290,6 +306,20 @@ export default function Home() {
                 src={web8}
                 alt="gif"
                 url="https://stirring-semolina-d2b9fe.netlify.app"
+              />
+              </a>
+            </div>
+            <div className="basis-1/3 flex-1">
+              <a href="https://420bailbonds.wordpress.com/">
+
+              <Image
+                className="project-pic rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web9}
+                alt="bailbonds"
+                url="https://420bailbonds.wordpress.com/"
               />
               </a>
             </div>
